@@ -1,0 +1,72 @@
+<html>
+<head>
+<script>
+function display(){
+ echo "succesfullly registred;"
+ }
+</script>
+<style>
+.border{
+ width: 400px;
+  height: 200px;
+  border: 3px solid black;
+}
+button{
+display: flex-end;
+background-image: linear-gradient(
+  to right,
+  #ff512f 0%,
+  #dd2476 51%,
+  #ff512f 100% );
+  color: #fff;
+  border:none;
+  padding:10px;
+  border-radius: 6px;
+  font-weight:normal;
+}
+button:hover{
+  border:2px solid #FF6767;
+  cursor:pointer;
+  }
+p{
+float:right;
+}
+a{
+color:blue;
+}
+body{
+background-color:#BFECFF;
+margin:10%;
+}
+.border{
+font-family:monospace;
+font-weight:bold;
+}
+.border{
+background-color:azure;
+    box-shadow: 20px 20px 20px black;
+    font-family: Georgia;
+    padding: 25px 25px;
+    margin: 11px;
+    margin-top: 50px;}
+</style>
+</head>
+<body>
+<form onsubmit='return display()' action="success.html">
+<center>
+<fieldset class="border">
+<br>
+<br>
+Username:<input type="text" required>
+<br>
+<br>
+password:<input type="text" required>
+<br>
+<br>
+<button href="register.html">LOG IN</button>
+<br>
+<p>Forgot<a href="">Password?</p>
+</fieldset>
+</center>
+</body>
+</html>
