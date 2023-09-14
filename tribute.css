@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+     body {
+    background-color:Azure;
+    margin:23%;
+}
+
+/* Styling the Title and giving
+        shadow to the title */
+#title {
+    text-align: center;
+    color:Maroon;
+    font-size: 10vh;
+    font-family:monospace;
+}
+
+/* Setting width and display
+        type of image */
+img {
+    display: inline-block;
+    width: 400px;
+}
+
+/* Setting font color and font
+        size of the image-caption */
+#caption {
+    font-size: 23px;
+    font-family: Gill Sans;
+    color: rgba(147, 100, 8, 0.977);
+}
+div#tribute-data {
+    background-color: rgba(20, 241, 200, 0.906);
+    box-shadow: 20px 20px 20px black;
+    font-family: Georgia;
+    padding: 25px 25px;
+    margin: 11px;
+    margin-top: 50px;
+}
+
+/* Styling the title of the content */
+h1.title-APJ {
+    font-size: 40px;
+    font-family: 'Arial Narrow Bold';
+    color: rgb(181, 5, 5);
+    text-align: center;
+    text-shadow: 5px 5px 10px rgba(203, 80, 100, 0.606);
+}
+
+/* Styling the link provided at the end */
+#tribute-link {
+    text-decoration: none;
+    color: black;
+}
+    </style>
+</head>
+
+<body>
+    <main id="main">
+
+        <!-- Title of the page -->
+        <h1 id="title">
+            
+Che Guevara
+
+        </h1>
+<center>
+        <div id="img">
+
+            <!--Image of the Tribute Person-->
+            <img src="/home/rguktongole/Downloads/cheguevara.png" id="image" alt="Error Loading Image">
+            <small id="caption">
+            </center>
+                <b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;Former Minister of Industries of Cuba</b>
+            </small>
+        </div>
+
+        <div id="tribute-data">
+
+            <!--Achievements and other
+                details of the person-->
+            <h1 class="title-APJ">
+                About the Legend
+            </h1>
+            <p>
+                ☛ Appearances of Argentine Marxist revolutionary Che Guevara (1928–1967) in popular culture are common throughout the world. Although during his lifetime he was a highly politicized and controversial figure, in death his stylized image has been transformed into a worldwide emblem for an array of causes, representing a complex mesh of sometimes conflicting narratives..<br><br>
+                ☛ Che Guevara's image is viewed as everything from an inspirational icon of revolution, to a retro and vintage logo. Most commonly he is represented by a facial caricature originally by Irish artist Jim Fitzpatrick and based on Alberto Korda's famous 1960 photograph titled Guerrillero Heroico.<br><br>
+                ☛ The evocative simulacra abbreviation of the photographic portrait allowed for easy reproduction and instant recognizability across various uses. For many around the world, Che has become a generic symbol of the underdog, the idealist, the iconoclast, or the martyr. He has become, as author Michael Casey notes in Che's Afterlife: The Legacy of an Image, "the quintessential postmodern icon signifying anything to anyone and everything to everyone."<br><br>
+                ☛ Che Guevara's likeness has undergone continual apotheosis while being weaved throughout the public consciousness in a variety of ways. From being viewed as a "Saintly Christ-like" figure by the rural poor in Bolivia where he was executed, to being viewed as an idealistic insignia for youth, longing for a vague sense of rebellion.
+                <br><br> ☛  His likeness can also be seen on millions of posters, hats, key chains, mouse pads, hoodies, beanies, flags, berets, backpacks, bandannas, belt buckles, wallets, watches, wall clocks, Zippo lighters, pocket flasks, bikinis, personal tattoos, and most commonly T-shirts. Meanwhile, his life story can be found in an array of films, documentaries, plays, and songs of tribute.</strong>
+                <br><br> ☛ Throughout television, music, books, magazines, and even corporate advertisements, Che's visage is an ever-present political and apolitical emblem that has been endlessly mutated, transformed, and morphed over the last fifty years of visual popular culture. 
+                <br><br> ☛ This allows Che to operate as "both a fashionable de-politicized logo, as well as a potent anti-establishment symbol used by a wide spectrum of human rights movements and individuals affirming their own liberation."
+                <br><br> ☛ Additionally, his face has evolved into many manifestations and represents a Rashomon effect to those who observe its use. To some it is merely a generic high street visual emblem of global marketing, while to others it represents the notion of dissent, civil disobedience, or political awareness. 
+                <br><br> ☛ Conversely, to those ideologically opposed to Che Guevara's belief in World revolution, or to those that resent his veneration because of his violent actions, his propagation represents shallow ignorant kitsch, idolatry worthy of spoof makeovers, parody, or even ridicule.
+                <br><br> ☛ Despite the competing narratives, Che has become a widely disseminated counter-cultural symbol that sometimes even operates entirely independent of the man himself.
+                <br><br> ☛Hannah Charlton of The Sunday Times made note of the varying uses by postulating that "T-shirt wearers might wear Che's face as an easy replacement for real activism, or as a surrogate for it."
+                <br><br> ☛ Pop's depersonalization and standardization simplified Che's image and helped align him with the masses, at the same time certifying his image as everyman. 
+                <br><br> ☛ Pop's aesthetic pushed towards absolutely unambiguous and uninflected meaning and repeatability
+                <br><br> ☛ Warholian Pop deals with outlines and surfaces rather than full chiaroscuro. 
+                <br><br> ☛ This reduction of the real world provided the perfect vehicle for distancing the image from the complexities and ambiguities of actual life and the reduction of the political into stereotype. 
+                <br><br><br>
+            </p>
+
+        </div>
+        <br>
+        For more information,
+        check out
+        <a id="tribute-link" href="#">
+            <b>Che Guevara</b> on Wikipedia. [
+            <small>this link @<a href="#">
+                    More.</a></a>
+        </small>]
+    </main>
+</body>
+
+</html>
